@@ -31,8 +31,8 @@ function Home() {
                 <h2>Connect With Me:</h2>
                 <p>Feel free to connect with me :)</p>
                 <div className="icons">
-               <a href="https://www.linkedin.com/in/choudhary-chhavi/"> <p><FaLinkedin /></p></a>
-                <p className="icon2"><AiFillGithub /></p>
+               <a href="https://www.linkedin.com/in/choudhary-chhavi/"><p><FaLinkedin /></p></a>
+                <a href="https://github.com/chhavi-choudhary"><p className="icon2"><AiFillGithub /></p></a>
                 </div>
             </div>
         </div>
