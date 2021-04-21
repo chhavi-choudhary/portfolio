@@ -1,0 +1,23 @@
+li {
+    display:inline-block;
+    text-align: center;
+    padding: 20px ;
+   
+  }
+  ul {
+    background-color: rgb(32, 6, 56); 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  .link{
+    color: cornsilk;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+  }
+  .link:hover{
+ background-color: rgb(179, 144, 212);  
+ }

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
 import { FaLinkedin } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai"
+
 function Home() {
     return (
         <div>
@@ -16,19 +18,23 @@ function Home() {
             </div>
             <div className="about">
                 <div className="pics2">
-                    <img src="https://media.istockphoto.com/vectors/purple-user-icon-in-the-circle-a-solid-gradient-vector-id1095289632?k=6&m=1095289632&s=612x612&w=0&h=nTAUUHoAFePMDh3-XYJsg6IM_idgzkjKFSB-YoKZj7o=" alt="pics2" />
+                    <img src="https://icon2.cleanpng.com/20180529/gvy/kisspng-female-youtube-in-my-frame-of-mind-female-avatar-5b0cd573872302.5131979915275677315535.jpg" alt="pics2" />
                 </div>
                 <div className="text1">
                     <h1>Let Me Introduce Myself</h1>
                     <h4>Always open to learn new things, I am passonate to work as Front-End -Web Developer.</h4>
                     <h4>My area of interest are React.js, JavaScript, HTML, CSS, RestAPI, Node.js.</h4>
-                    <h4>I also Have basic Knowledge of C, Python programming language.</h4>
+                    <h4>I also Have basic Knowledge of C & Python programming language.</h4>
                 </div>
             </div>
-            <div>
-                <h1>Connect With Me:</h1>
-                <FaLinkedin/>       
-                 </div>
+            <div className="socialmedia">
+                <h2>Connect With Me:</h2>
+                <p>Feel free to connect with me :)</p>
+                <div className="icons">
+               <a href="https://www.linkedin.com/in/choudhary-chhavi/"> <p><FaLinkedin /></p></a>
+                <p className="icon2"><AiFillGithub /></p>
+                </div>
+            </div>
         </div>
     )
 }
