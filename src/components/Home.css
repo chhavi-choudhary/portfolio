@@ -6,7 +6,7 @@ body {
     font-family:"Times New Roman", Times, serif;
 }
 
-h2,h1,h4 {
+h2,h1,h4,p{
     color:rgb(235, 213, 235);
 }
 .pic1 img{
@@ -27,8 +27,24 @@ justify-content: space-evenly;
 }
 
 .about{
-    padding-top:8cm;
+padding-top:8cm;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
+}
+
+.icons{
+    color:whitesmoke;
+    font-size: 60px;
+}
+.icons{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.icon2{
+    margin-left: 30px;
+}
+.socialmedia h2{
+    margin-top: 6cm;
 }
