@@ -5,9 +5,9 @@ export default function Project() {
         <div>
             <p>My projects</p>
             <h1>Wild Code Bar</h1>
-            <a href="">Wild Code Bar</a>
+            <a href="https://github.com/chhavi-choudhary">Wild Code Bar</a>
             <h1>Explore NASA</h1>
-            <a href="">Explore NASA</a>
+            <a href="https://github.com/chhavi-choudhary">Explore NASA</a>
         </div>
     )
 }
