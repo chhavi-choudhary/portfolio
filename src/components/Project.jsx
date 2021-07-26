@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+
 
 export default function Project() {
     return (
         <div>
-            My projects
+            <p>My projects</p>
+            <h1>Have a look on my projects!!!</h1>
+            
+            
         </div>
     )
 }
